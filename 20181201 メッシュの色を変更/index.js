@@ -23,7 +23,7 @@ function init(){
     camera.lookAt(new THREE.Vector3(0,0,0)); //原点方向を向く ※OrbitControl.jsを使用しているときは無効
 
     //メッシュを作成
-    var geometry=new THREE.BoxGeometry(400, 400, 400);
+    var geometry=new THREE.BoxGeometry(400,400,400);
     var material=new THREE.MeshStandardMaterial({color:"#00ffff"}); //※StandardMaterialの使用時はライトを準備
     var mesh=new THREE.Mesh(geometry, material);
     scene.add(mesh);
