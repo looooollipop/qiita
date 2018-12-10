@@ -23,7 +23,7 @@ function init(){
     camera.lookAt(new THREE.Vector3(0,0,0)); //原点方向を向く ※OrbitControl.jsを使用しているときは無効
 
     //メッシュを作成
-    var geometry=new THREE.BoxGeometry(400, 400, 400); //直方体
+    var geometry=new THREE.BoxGeometry(400,400,400); //直方体
     //var geometry=new THREE.SphereGeometry(200,32,32); //球体(半径,経度分割線,緯度分割線)
     //var geometry=new THREE.CylinderGeometry(200,200,200,32); //円柱(上面の半径,底面の半径,高さ,円周の分割数)
     //var geometry=new THREE.PlaneGeometry(400,400,32); //平面(幅,高さ,分割数)
