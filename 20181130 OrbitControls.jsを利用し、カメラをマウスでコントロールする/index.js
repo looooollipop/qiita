@@ -27,7 +27,7 @@ function init(){
     controls.dampingFactor=0.2; //滑らかにコントローラを制御する
 
     //メッシュを作成
-    var geometry=new THREE.BoxGeometry(400, 400, 400);
+    var geometry=new THREE.BoxGeometry(400,400,400);
     var material=new THREE.MeshStandardMaterial({color:"#00ffff"}); //※StandardMaterialの使用時はライトを準備
     var mesh=new THREE.Mesh(geometry, material);
     scene.add(mesh);
